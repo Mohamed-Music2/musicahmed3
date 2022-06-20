@@ -68,24 +68,24 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕  Grubuna Ekle  ➕", 
+                        "➕ اضف البوت الي مجموعتك ➕", 
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎙 Asistan", url=f"https://t.me/{ASSISTANT_NAME}"
+                        "🎙 الحساب المساعد", url=f"https://t.me/{ASSISTANT_NAME}"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 جروب الدعم", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📚 Komutlar" , callback_data= "cbhelp"
+                        "🥇 المطور", url=f"https://t.me/lMl4ll"
                     ),
                     InlineKeyboardButton(
-                        "📣 Kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 قناه المطور", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
                 
@@ -227,24 +227,24 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Grubuna Ekle ➕",
+                        "➕ اضفني الي مجموعتك ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🎙 Asistan", url=f"https://t.me/{ASSISTANT_NAME}"
+                        "🎙 الحساب المساعد", url=f"https://t.me/{ASSISTANT_NAME}"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "💬 جروب اادعم", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📚 Komutlar" , callback_data= "cbhelp"
+                        "🥇 المطور", url=f"https://t.me/lMl4ll"
                     ),
                     InlineKeyboardButton(
-                        "📣 Kanal", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 قناه المطور", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ]
                 
